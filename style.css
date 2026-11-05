@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Earwig Factory; /* set name */
+  src: url(earwig.otf); /* url of the font */
+}
+
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    font-size: 48px;
+    color: black;
+    font-family: Earwig Factory, sans-serif;
+}
+
+h2 {
+    font-size: 32px;
+    color: black;
+    font-family: Earwig Factory, sans-serif;
+}
+
+p {
+    color: black;
+    font-size: 16px;
+    font-family: monospace, sans-serif;
+}
+
+.pfp {
+    border-radius: 50%;
+    outline: 2px solid black;
+}
+
+ul {
+    font-family: monospace; 
+    font-size: 16px;
+}
+
+footer {
+    font-family: monospace;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
