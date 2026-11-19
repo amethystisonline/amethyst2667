@@ -4,7 +4,9 @@
 }
 
 body {
-    background-color: white;
+    background-color: #ffffff;
+    opacity: 1;
+    background: repeating-linear-gradient(135deg, #ffffff 0px, #ffffff 20px, #fde2ff 20px, #fde2ff 22px, #ffffff 22px, #ffffff 42px, #e8bcf3 42px, #e8bcf3 44px);
 }
 
 h1 {
@@ -85,3 +87,4 @@ ul {
 a {
     font-family: monospace;
 }
+
