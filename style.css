@@ -1,11 +1,11 @@
 @font-face {
     font-family: Ndot57; /* set name */
-    src: url(Ndot57-Regular.otf); /* url of the font */
+    src: url(assets/Ndot57-Regular.otf); /* url of the font */
 }
 
 @font-face {
     font-family: NType82;
-    src: url(NType82-Regular.otf);
+    src: url(assets/NType82-Regular.otf);
 }
 
 body {
@@ -108,3 +108,4 @@ p2 {
     justify-content: space-between;
     padding: 30px 0px 0px 30px;
 }
+
