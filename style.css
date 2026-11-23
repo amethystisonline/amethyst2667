@@ -1,39 +1,44 @@
 @font-face {
-  font-family: Earwig Factory; /* set name */
-  src: url(earwig.otf); /* url of the font */
+    font-family: Ndot57; /* set name */
+    src: url(Ndot57-Regular.otf); /* url of the font */
+}
+
+@font-face {
+    font-family: NType82;
+    src: url(NType82-Regular.otf);
 }
 
 body {
-    background-color: #ffffff;
-    opacity: 1;
-    background: repeating-linear-gradient(135deg, #ffffff 0px, #ffffff 20px, #fde2ff 20px, #fde2ff 22px, #ffffff 22px, #ffffff 42px, #e8bcf3 42px, #e8bcf3 44px);
+    background-color: #0a0a0a;
+    background-image: radial-gradient(#f74545 1.5px, transparent 1.5px), radial-gradient(#f74545 1.5px, #0a0a0a 1.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
 }
 
 h1 {
     font-size: 64px;
-    color: black;
-    font-family: Earwig Factory, sans-serif;
+    color: mintcream;
+    font-family: Ndot57, sans-serif;
 }
 
 
-p1  {
-    color: black;
+p1 {
+    color: mintcream;
     font-size: 16px;
-    font-family: monospace, sans-serif;
+    font-family: NType82, sans-serif;
 }
 
 .pfp {
-    border-radius: 50%;
-    outline: 2px solid black;
+    padding: 0px 0px 0px 15px
 }
 
 ul {
-    font-family: monospace; 
+    font-family: NType82;
     font-size: 16px;
     list-style-type: none;
     padding: 0;
     justify-content: center;
-
+    color: mintcream;   
 }
 
 .TopBar {
@@ -41,19 +46,18 @@ ul {
     height: 50px;
     margin: auto auto;
     outline: 1px solid gray; 
-    background-color: lightgray;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    background-color: black;
+    display: column;
     align-items: center;
+
 }
 
 .Introduction {
     width: 800px;
     height: 250px;
     margin: auto auto;
-    outline: 1px solid gray; 
-    background-color: lightgray;
+    outline: 1px solid gray;
+    background-color: black;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -64,27 +68,40 @@ ul {
     width: 800px;
     height: 250px;
     margin: auto auto;
-    outline: 1px solid gray; 
-    background-color: lightgray;
+    outline: 1px solid gray;
+    background-color: black;
 }
 
 .AboutMe {
     width: 800px;
     height: 250px;
     margin: auto auto;
-    outline: 1px solid gray; 
-    background-color: lightgray;
+    outline: 1px solid gray;
+    background-color: black;
 }
 
 .Projects {
     width: 800px;
     height: 250px;
     margin: auto auto;
-    outline: 1px solid gray; 
-    background-color: lightgray;
+    outline: 1px solid gray;
+    background-color: black;
 }
 
 a {
-    font-family: monospace;
+    font-family: NType82;
+    color: mintcream;
 }
+
+.h1intro {
+    padding-left: 15px;
+    color: mintcream;
+}
+
+p2 {
+    color: mintcream;
+    font-size: 12px;
+    font-family: NType82, sans-serif;
+}
+
 
